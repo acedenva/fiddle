@@ -1,17 +1,31 @@
 body {
 	background-color: #504945;
 }
+#arParent {
+	width:95vw;
+}
+#arChild {
+	padding-top: 33%;
+	position: relative;
+}
 #h {
 	height: 0px;
 	padding-top: 5%;
 	background-color: lime;
 }
 #keyboard {
-	display:block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 }
-#keyboard div {
+#keyboard > div {
 	display: grid;
-	height: 25px;
+	height: 20%;
+
+}
+#keyboard > div > div {
 	border-style: solid;
 }
 #upperRow {
