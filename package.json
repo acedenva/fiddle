@@ -1,0 +1,11 @@
+{
+  "name": "fiddle",
+  "version": "0.1.0",
+  "description": "ultra simple web fiddle",
+  "scripts": {
+    "serve": "http-server ./serve"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
