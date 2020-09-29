@@ -1,0 +1,36 @@
+body {
+	background-color: #504945;
+}
+#h {
+	height: 0px;
+	padding-top: 5%;
+	background-color: lime;
+}
+#keyboard {
+	display:block;
+}
+#keyboard div {
+	display: grid;
+	height: 25px;
+	border-style: solid;
+}
+#upperRow {
+	background-color: aqua;
+	grid-template-columns: [outerLeft] repeat(13, 1fr) 2fr [outerRight];
+}
+#thirdRow{
+	background-color: lightcoral;
+	grid-template-columns: [outerLeft] 1.5fr repeat(12, 1fr) 1.5fr [outerRight];
+}
+#secondRow {
+	background-color: lightgreen;
+	grid-template-columns: [outerLeft] 1.8fr repeat(11, 1fr) 2.2fr [outerRight];
+}
+#firstRow{
+	background-color: lightseagreen;
+	grid-template-columns: [outerLeft] 2.2fr repeat(10, 1fr) 2.8fr [outerRight];
+}
+#bottomRow{
+	background-color: lightsteelblue;
+	grid-template-columns: [outerLeft] 1.5fr 1fr 1.5fr 6fr 1.5fr 1fr 1fr 1.5fr [outerRight];
+}
